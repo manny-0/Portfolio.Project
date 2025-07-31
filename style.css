@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: black;
+    /* padding: 20px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: #f53b1a;
+    font-weight: bolder;
+}
+
+.logo {
+    color: #f53b1a;
+    font-size: 31px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+}
+
+/* .hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background: black;
+} */
+
+/* container-hero-content {
+    display: flex;
+    justify-content: space-between;
+    .align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* .hero .text {
+    /* max-width: 600px;
+    margin: 50px;
+} */
+
+/* .hero h1 {
+    font-size: 48px;
+    color: white;
+} */
+
+/* .hero h2 {
+    color: #f53b1a;
+    margin: 10px 0;
+}
+
+.hero .location {
+    margin-bottom: 20px;
+    color: #f53b1a;
+}
+
+.button {
+    background: #f53b1a;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+} */
+
+/* .hero-image img {
+    /* border-radius: 50%; */
+    /* display: flex; */
+    /* justify-content: flex-end; *
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #f53b1a;
+} */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  60px 80px 60px 20px;
+    color: white;
+    background-color: black;
+}
+
+.text-content {
+    max-width: 500px;
+    margin-left: 200px;
+}
+
+.greeting {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.role {
+    font-size: 28px;
+    color: #f53b1a;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: #f53b1a;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hire {
+    background-color: #f53b1a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-content img {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #f53b1a;
+}
+
+/* .about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px;
+} */
+
+/* .about-content img {
+    width: 250px;
+    
+} */
+
+/* .about {
+    background: black;
+    padding: 60px 0;
+} */
+
+/* .about h2 {
+    /* text-align: center;
+    color: #f53b1a;
+    margin-bottom: 5px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding: 5px;
+} */
+
+/* .about-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .about-content h3 {
+    color: #f53b1a;
+    font-size: 22px;
+    margin-top: 15px;
+} */
+
+.about-section {
+    padding: 60px 20px; 
+}
+
+.about-container {
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0, auto;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #f53b1a;
+}
+
+.about-section h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: white;
+    color: #f53b1a;
+}
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h1 {
+    color: #f53b1a;
+    font-size: 32px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.about-content h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: white;
+    margin-top: 5px;
+}
+
+.about-content h3 {
+    color: #f53b1a;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: white;
+}
+
+.download {
+    background-color: #f53b1a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 
+.skills {
+    background: black;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #f53b1a;
+    margin-bottom: 10px;
+}
+
+.skills .desc {
+    margin: 10px 0;
+}
+
+.skill-bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.skill-bars div {
+    background: black;
+    padding: 20px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.skill-bars span {
+    display: block;
+    margin-top: 10px;
+    color: #f53b1a;
+    font-size: 18px;
+} */
+
+.skills .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 50px;
+    /* flex-wrap: wrap; */
+    max-width: 1200px;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.left-section {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 40px;
+}
+
+.right-section {
+    flex: 1;
+    min-width: 300px;
+    padding-top: 10px;
+}
+
+.skills .left-section h2 {
+    color: #f53b1a;
+    font-size: 32px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.skills h2 {
+    color: #f53b1a;
+    font-size: 28px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: white;
+    /* text-decoration: double; */
+    /* border-bottom: 3px solid white; */
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;;
+}
+
+.left-section h3 {
+    color: #f53b1a;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    color: white;
+    line-height: 1.6;
+}
+
+.experience{
+    /* margin-top: 40px; */
+    display: flex;
+    align-items: flex-end;
+    padding-top: 0;
+}
+
+.experience .years {
+    font-size: 60px;
+    font-weight: bold;
+    color: #f53b1a;
+    margin-right: 10px;
+}
+
+.experience .label {
+    font-size: 16px;
+    color: #f53b1a;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+/* .skill {
+    margin-bottom: 20px;
+} */
+
+
+.skill-box {
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+}
+
+.skill-title {
+    display: block;
+    color: #f53b1a;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skill-percent {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.services {
+    background: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #f53b1a;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: white;
+}
+
+.service-grids {
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 100px;
+}
+
+.service-item {
+    width: 180px;
+    text-align: center;
+}
+
+.icon {
+    background-color: #f53b1a;
+    color: white;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin: 0 auto 10px;
+}
+
+.service-item p {
+    color: #f53b1a;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* .service-grids div {
+    background: black;
+    padding: 20px 30px;
+    border: 1px solid #f53b1a;
+    border-radius: 8px;
+} */
+
+.contact {
+    background: black;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2{
+    color: #f53b1a;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: white;
+}
+
+footer {
+    background: #f53b1a;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: white;
+}
